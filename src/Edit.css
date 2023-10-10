@@ -1,0 +1,30 @@
+.edit{
+    margin-top: 100px;
+}
+.edit_form{
+    margin: auto;
+    padding: 15px;
+    max-width: 400px;
+    align-content: center;
+    
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
+}
+img{
+    max-width: 100px;
+    max-height: 100px;
+}

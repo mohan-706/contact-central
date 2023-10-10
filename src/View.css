@@ -1,0 +1,55 @@
+/* View.css */
+.view-card {
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .view-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .view-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .view-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .view-image img {
+    width: 1000px; 
+    height: 1000px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  img {
+    max-width: 150px;
+    max-height: 150px;
+}
+  .view-details {
+    flex: 3;
+    padding-left: 20px;
+  }
+  
+  .view-details strong {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .view-details span {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
